@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC'); /* importamos uma fonte do google fonts, quanto mais fontes importadas mais demora para carregar o site */
+h1 { /* todo o código: "*" */
+    font-size: 40pt;
+    text-align: center;
+    font-family: "Open Sans", Arial, Tahoma, sans-serif;
+    /* o open sans está entre aspas porque tem um espaço entre as palavras dela, se não o navegador entende open como uma fonte e sans como outra */
+}
+h2 {
+    font-size: 25pt;
+    font-family: cursive; /* não tem cursiva no sistema */
+    font-weight: lighter;
+}
+h3 {
+    font-size: 20pt;
+    color: purple;
+    text-shadow: 5px 5px 5px pink; /* delocamento x, deslocamento y, desfoque e cor da sombra da palavra */
+    /* text-shadow: -5px -5px 5px pink; sempre pra direita e pra baixo por default mas negativando as coordenadas x e y ela vai para cima e para a esquerda */
+}
+#primeiro {
+    font-style: italic;
+}
+
+p:nth-of-type(2) { /* o segundo p, pegamos a enesima posição do tipo p */
+    color: seagreen;
+    text-align: justify;
+}
+
+span.sublinhado {
+    text-decoration: underline;
+}
+
+a {
+    text-decoration: none; /* tira o sublinhado do link */
+}
+
+p:last-of-type {  /* o ultimo do tipo p */
+    line-height: 20pt;
+}
+
+.fontecursiva {
+    font-family: 'Amatic SC', cursive;
+}

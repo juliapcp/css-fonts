@@ -1,0 +1,18 @@
+h1 { /* todo o código: "*" */
+    font-size: 40pt;
+    text-align: center;
+    font-family: "Open Sans", Arial, Tahoma, sans-serif;
+    /* o open sans está entre aspas porque tem um espaço entre as palavras dela, se não o navegador entende open como uma fonte e sans como outra */
+}
+h2 {
+    font-size: 30pt;
+    font-family: "Comic Sans", cursive; /* não tem cursiva no sistema */
+    font-weight: lighter;
+}
+#primeiro {
+    font-style: italic;
+}
+
+p:nth-of-type(2) { /* o segundo p, pegamos a enesima posição do tipo p */
+    color: seagreen;
+}
