@@ -40,3 +40,7 @@ p:last-of-type {  /* o ultimo do tipo p */
 .fontecursiva {
     font-family: 'Amatic SC', cursive;
 }
+
+h1:hover { /* quando o ponteiro ta em cima é a função hover */
+    color: red;
+}
